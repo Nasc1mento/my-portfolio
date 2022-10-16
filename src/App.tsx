@@ -1,11 +1,20 @@
-import { useState } from 'react'
-
+import Layout from './routes/Layout'
+import Home from './routes/Home'
+import Projects from './routes/Projects'
+import About from './routes/About'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />} >
+          <Route index element={<Home />} />
+          <Route path="projects" element={<Projects />}/>
+          <Route path="about" element={<About />}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
