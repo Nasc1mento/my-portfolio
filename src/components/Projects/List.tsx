@@ -10,7 +10,7 @@ export default class List extends Component {
                 <h4 className='text-lg font-bold text-black'>JavaScript | Svelte</h4>
                 <div className='flex space-x-2 justify-center m-5'>
                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded duration-500'>
-                        Source
+                        <a href="https://github.com/Nasc1mento/JogoDaMemoria" target="_blank">Source</a>
                     </button>
                 </div>
             </div>    
@@ -21,10 +21,10 @@ export default class List extends Component {
                 <h4 className='text-lg font-bold text-black'>Shell | Bash</h4>
                 <div className='flex space-x-2 justify-center m-5'>
                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded duration-500'>
-                        <a href="https://github.com/Nasc1mento/TicTacToeBash">Source</a>
+                        <a href="https://github.com/Nasc1mento/TicTacToeBash" target="_blank">Source</a>
                     </button>
                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded duration-500'>
-                        <a href="https://replit.com/@AdryanReis/TicTacToeBash?v=1">Demo</a>
+                        <a href="https://replit.com/@AdryanReis/TicTacToeBash?v=1" target="_blank">Demo</a>
                     </button>
                 </div>   
             </div>    
@@ -35,10 +35,10 @@ export default class List extends Component {
                 <h4 className='text-lg font-bold text-black'>JavaScript | Svelte</h4>
                 <div className='flex space-x-2 justify-center m-5'>
                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded duration-500'>
-                        <a href="https://github.com/Nasc1mento/DamasSvelte">Source</a>  
+                        <a href="https://github.com/Nasc1mento/DamasSvelte" target="_blank">Source</a>  
                     </button>
                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded duration-500'>
-                        <a href="https://damas-nasc1mento.netlify.app/">Demo</a>
+                        <a href="https://damas-nasc1mento.netlify.app/" target="_blank">Demo</a>
                     </button>
                 </div>
             </div>    
@@ -49,7 +49,7 @@ export default class List extends Component {
                 <h4 className='text-lg font-bold text-black'>PHP</h4>
                 <div className='flex space-x-2 justify-center m-5'>
                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded duration-500'>
-                        <a href="https://github.com/Nasc1mento/ToDoList">Source</a>
+                        <a href="https://github.com/Nasc1mento/ToDoList" target="_blank">Source</a>
                     </button>
                 </div>   
             </div>    
@@ -60,12 +60,13 @@ export default class List extends Component {
                 <h4 className='text-lg font-bold text-black'>JavaScript | Svelte</h4>
                 <div className='flex space-x-2 justify-center m-5'>
                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded duration-500'>
-                        <a href="">Source</a>
+                        <a href="https://github.com/Nasc1mento/CalculadoraSimples" target="_blank">Source </a>
                     </button>
                 </div>   
             </div>    
         </div>
       </div>
+      
     )
   }
 }

@@ -13,13 +13,13 @@ export default class TextPage extends Component {
                 <img className='rounded-full w-32 h-32' src={githubPhotoProfile} />
               </div>
             <div className='m-5'>
-                <h1 className="text-3xl text-violet-800 font-bold">I'm Adryan</h1>
+                <h1 className="text-3xl text-violet-800 font-bold">I'm Adryan Reis</h1>
                 <h2 className='text-lg'>A Internet Systems student at IFPE</h2>
-                <h2 className='text-lg'>Studying about Web Development</h2>
+                <h2 className='text-lg'>Currently studying about Web Development</h2>
             </div>
               <div className='flex justify-center item'>
-                <a href="https://github.com/Nasc1mento/"><img className="w-10 h-10 m-5" src={githubIcon}/></a>
-                <a href="https://www.linkedin.com/in/adryan-reis-9940ba186"><img className="w-10 h-10 m-5" src={linkedinIcon}/></a>
+                <a href="https://github.com/Nasc1mento/" target="_blank"><img className="w-10 h-10 m-5" src={githubIcon}/></a>
+                <a href="https://www.linkedin.com/in/adryan-reis-9940ba186" target="_blank"><img className="w-10 h-10 m-5" src={linkedinIcon}/></a>
               </div>
             </div>    
         </div>   

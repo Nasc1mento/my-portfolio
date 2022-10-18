@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <nav className="p-5 bg-gray-800 md:flex md:items-center md:justify-between">
       <div>
-          <span className="text-xl text-white font-extrabold ml-52">AdryanReis</span>
+          <span className="text-xl text-white font-extrabold ml-52">Nasc1mento</span>
         </div>
         <ul className="md:flex mr-52">
           <li className="mx-4">
