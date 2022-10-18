@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class List extends Component {
   render() {
     return (
-      <section className='grid grid-cols-2 p-40'>
+      <div className='grid grid-cols-2 p-40'>
         <div className='justify-center items-start m-5 text-center'>            
             <div className='bg-white rounded py-8'>
                 <h3 className='text-xl text-violet-800 font-bold'>Memory game</h3>
@@ -65,7 +65,7 @@ export default class List extends Component {
                 </div>   
             </div>    
         </div>
-      </section>
+      </div>
     )
   }
 }
