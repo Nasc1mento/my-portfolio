@@ -4,7 +4,7 @@ export default class List extends Component {
   render() {
     return (
       <section className='grid grid-cols-2 p-40'>
-        <div className='md:justify-center md:items-start m-5 text-center'>            
+        <div className='justify-center items-start m-5 text-center'>            
             <div className='bg-white rounded py-8'>
                 <h3 className='text-xl text-violet-800 font-bold'>Memory game</h3>
                 <h4 className='text-lg font-bold text-black'>JavaScript | Svelte</h4>
@@ -15,7 +15,7 @@ export default class List extends Component {
                 </div>
             </div>    
         </div>
-        <div className='md:justify-center md:items-center m-5 text-center'>
+        <div className='justify-center items-center m-5 text-center'>
             <div className='bg-white rounded py-8'>
                 <h3 className='text-xl text-violet-800 font-bold'>TicTacToe</h3>
                 <h4 className='text-lg font-bold text-black'>Shell | Bash</h4>
@@ -29,7 +29,7 @@ export default class List extends Component {
                 </div>   
             </div>    
         </div>
-        <div className='md:justify-center md:items-center m-5 text-center'>
+        <div className='justify-center items-center m-5 text-center'>
             <div className='bg-white rounded py-8'>
                 <h3 className='text-xl text-violet-800 font-bold'>Damas</h3>
                 <h4 className='text-lg font-bold text-black'>JavaScript | Svelte</h4>
@@ -43,7 +43,7 @@ export default class List extends Component {
                 </div>
             </div>    
         </div>
-        <div className='md:justify-center md:items-center m-5 text-center'>
+        <div className='justify-center items-center m-5 text-center'>
             <div className='bg-white rounded py-8'>
                 <h3 className='text-xl text-violet-800 font-bold'>ToDoList</h3>
                 <h4 className='text-lg font-bold text-black'>PHP</h4>
@@ -54,7 +54,7 @@ export default class List extends Component {
                 </div>   
             </div>    
         </div>
-        <div className='md:justify-center md:items-center m-5 text-center'>
+        <div className='justify-center items-center m-5 text-center'>
             <div className='bg-white rounded py-8'>
                 <h3 className='text-xl text-violet-800 font-bold'>SimpleCalculator</h3>
                 <h4 className='text-lg font-bold text-black'>JavaScript | Svelte</h4>
