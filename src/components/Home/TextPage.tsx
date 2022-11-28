@@ -6,7 +6,7 @@ import linkedinIcon from '../../assets/linkedin-svg.svg'
 export default class TextPage extends Component {
   render() {
     return (
-        <div className="grid place-items-center h-screen md:flex md:justify-center">
+        <div className="md:grid place-items-center h-screen  md:justify-center">
           <div className='md:justify-center md:items-center m-5 text-center'>
             <div className='bg-white rounded py-8'>
               <div className='flex justify-center'>
