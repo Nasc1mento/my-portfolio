@@ -7,27 +7,9 @@ const Navbar = () => {
 
   return (
     <>
-      {/* <nav className="p-5 bg-gray-800 md:flex md:items-center md:justify-between " >
-         <div className="top-10">
-          <span className="text-xl text-white font-extrabold md:ml-52">Nasc1mento</span>
-        </div> 
-        <ul className="md:flex">
-          <li className="md:mx-4">
-            <Link className="text-xl text-white hover:text-cyan-500 duration-500" to="/">HOME</Link>
-          </li>
-          <li className="md:mx-4">
-            <Link className="text-xl text-white hover:text-cyan-500 duration-500" to="/Projects">PROJECTS</Link>
-          </li>
-        </ul>
-
-        
-
-      </nav> */}
-
       <div className="p-5 bg-gray-800 md:flex md:items-center md:justify-center ">
       <nav >
         <section className="MOBILE-MENU flex lg:hidden">
-          
           <div
             className="HAMBURGER-ICON space-y-2"
             onClick={() => setIsNavOpen((prev) => !prev)} // toggle isNavOpen state on click
@@ -57,10 +39,10 @@ const Navbar = () => {
             </div>
             <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]" onClick={() => setIsNavOpen(false)}>
               <li className="border-b text-violet-800 border-inherit my-4 uppercase text-3xl border-black">
-                <Link  className="font-bold" to="/">HOME</Link>
+                <Link  className="font-bold" to="/">home</Link>
               </li>
               <li className="border-b border-inherit text-violet-800 my-4 uppercase text-3xl border-black">
-                <Link className="font-bold" to="/Projects">PROJECTS</Link>
+                <Link className="font-bold" to="/Projects">projects</Link>
               </li>
               <div className="top-10">
           <span className="text-xl text-white font-extrabold md:ml-52">Nasc1mento</span>
