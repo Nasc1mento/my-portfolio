@@ -17,7 +17,7 @@ export default class List extends Component {
         </div>
         <div className='justify-center items-center m-5 text-center'>
             <div className='bg-white rounded py-8'>
-                <h3 className='text-xl text-violet-800 font-bold'>TicTacToe</h3>
+                <h3 className='text-xl text-violet-800 font-bold'>TicTacToe Resizable</h3>
                 <h4 className='text-lg font-bold text-black'>Shell | Bash</h4>
                 <div className='flex space-x-2 justify-center m-5'>
                     <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded duration-500'>
