@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import githubPhotoProfile from '../../assets/githubprofile.png'
 import githubIcon from '../../assets/github-svg.svg'
 import linkedinIcon from '../../assets/linkedin-svg.svg'
+import adryanIcon from '../../assets/adryan.jpg'
 
 export default class TextPage extends Component {
   render() {
@@ -10,7 +10,7 @@ export default class TextPage extends Component {
           <div className='md:justify-center md:items-center m-5 text-center'>
             <div className='bg-white rounded py-8'>
               <div className='flex justify-center'>
-                <img className='rounded-full w-32 h-32' src={githubPhotoProfile} />
+                <img className='rounded-full w-48 h-48' src={adryanIcon} />
               </div>
             <div className='m-5'>
                 <h1 className="text-3xl text-violet-800 font-bold">I'm Adryan Reis</h1>
