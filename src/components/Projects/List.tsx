@@ -65,6 +65,17 @@ export default class List extends Component {
                 </div>
             </div>    
         </div>
+        <div className='justify-center items-start m-5 text-center'>            
+            <div className='bg-white rounded py-8'>
+                <h3 className='text-xl text-violet-800 font-bold'>More</h3>
+                <h4 className='text-lg font-bold text-black'>...</h4>
+                <div className='flex space-x-2 justify-center m-5'>
+                    <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded duration-500'>
+                        <a href="https://github.com/Nasc1mento" target="_blank">My repo</a>
+                    </button>
+                </div>
+            </div>    
+        </div>
       </div>
       
     )
