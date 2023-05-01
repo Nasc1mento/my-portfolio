@@ -12,10 +12,9 @@ export default class TextPage extends Component {
               <div className='flex justify-center'>
                 <img className='rounded-full w-48 h-48' src={adryanIcon} />
               </div>
-            <div className='m-5'>
-                <h1 className="text-3xl text-violet-800 font-bold">I'm Adryan Reis</h1>
-                <br />
-                <h2 className='text-lg'>Internet Systems student at IFPE -  Federal Institute of <br /> Education, Science and Technology of Pernambuco</h2>
+            <div className='m-12 px-10 py-2'>
+                <h1 className="text-2xl text-violet-800 font-bold">I'm Adryan Reis</h1>              
+                <h2 className='text-lg'>Internet Systems Student at IFPE</h2>             
             </div>
               <div className='flex justify-center item'>
                 <a href="https://github.com/Nasc1mento/" target="_blank"><img className="w-10 h-10 m-5" src={githubIcon}/></a>
