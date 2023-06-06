@@ -1,10 +1,8 @@
-import React, { Component } from 'react'
 import githubIcon from '../../assets/github-svg.svg'
 import linkedinIcon from '../../assets/linkedin-svg.svg'
 import adryanIcon from '../../assets/adryan.jpg'
 
-export default class TextPage extends Component {
-  render() {
+export default function TextPage() {
     return (
         <div className="md:grid place-items-center h-screen  md:justify-center">
           <div className='md:justify-center md:items-center m-5 text-center'>
@@ -24,6 +22,5 @@ export default class TextPage extends Component {
         </div>   
         </div> 
     )
-  }
 }
 

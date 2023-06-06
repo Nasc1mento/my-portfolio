@@ -1,10 +1,8 @@
 import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 
-const Navbar = () => {
-
+export default function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
-
   return (
     <>
       <div className="p-5 bg-gray-800 md:flex md:items-center md:justify-center ">
@@ -85,5 +83,3 @@ const Navbar = () => {
     </>
   )
 };
-
-export default Navbar;
